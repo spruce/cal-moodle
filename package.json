@@ -1,0 +1,18 @@
+{
+  "name": "ics-nice",
+  "version": "0.0.5",
+  "description": "A Package for serving an calender for Studies",
+  "author": "Felix Fichte <dev@spruce.de>",
+  "dependencies": {
+    "express": "~4.0.0-rc2",
+    "ical": ">= 0.2.0",
+    "ical-generator": ">= 0.1.4",
+    "request": ">= 2.12.0",
+    "underscore": "^1.7.0"
+  },
+  "scripts": {
+    "start": "npm install && pm2 restart cal.spruce.de"
+  },
+  "engine": "node >= 0.4.1",
+  "private": true
+}
